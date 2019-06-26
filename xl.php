@@ -260,7 +260,6 @@ echo date('l, d-m-Y  h:i:s a');
 $ReqID = date('Ymd');
 $imei = 1588165532;
 for ($o = 1; $o > 0; $o++){
-        system(clear);
 	echo "\nMenu\n";
 	echo "1.Minta Password\n";
 	echo "2.Login dan beli paket\n";
@@ -278,6 +277,7 @@ for ($o = 1; $o > 0; $o++){
 	case '3':
 		$anu5 = getserviceid();
 		echo "$anu2\n" . "$anu\n" . "$anu1\n";
+                system(clear);
 		$anu4 = beli($anu,$anu2,$anu5,$imei,$ReqID);
 		echo "\njika paket tidak masuk silahkan ketik 3 di menu pilihan\n";
 		break;
