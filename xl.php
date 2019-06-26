@@ -260,10 +260,10 @@ echo date('l, d-m-Y  h:i:s a');
 $ReqID = date('Ymd');
 $imei = 1588165532;
 for ($o = 1; $o > 0; $o++){
+        system(clear);
 	echo "\nMenu\n";
 	echo "1.Minta Password\n";
 	echo "2.Login dan beli paket\n";
-        system(clear);
 	echo "tentukan pilihan : ";
 	$i = trim(fgets(STDIN));
 	switch($i){
