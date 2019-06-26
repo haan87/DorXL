@@ -263,7 +263,9 @@ for ($o = 1; $o > 0; $o++){
 	echo "\nMenu\n";
 	echo "1.Minta Password\n";
 	echo "2.Login dan beli paket\n";
-	echo "tentukan pilihan : ";
+	echo "3.beli ulang";
+        echo "4.keluar";
+        echo "tentukan pilihan : ";
 	$i = trim(fgets(STDIN));
 	switch($i){
 	case '1':
